@@ -1,3 +1,31 @@
-.redColor{
-    color: red;
+.html, body{
+    margin: 0;
+    padding: 0;
+}
+.equipage{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personnage{
+    background-size: contain;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.luffy{
+    background-image: url("../img/luffy.webp");
+}
+.nami{
+    background-image: url("../img/nami.jpeg");
+}
+.usopp{
+    background-image: url("../img/usopp.jpeg");
+}
+.zoro{
+    background-image: url("../img/zoro.jpeg");
 }
