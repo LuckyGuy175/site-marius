@@ -7,6 +7,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
+
+    flex:1;
 }
 
 .personnage{
@@ -16,7 +18,9 @@
     background-position: center;
     background-repeat: no-repeat;
 }
-
+.personnage:hover{
+    flex:5;
+}
 .luffy{
     background-image: url("../img/luffy.webp");
 }
