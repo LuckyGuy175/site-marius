@@ -1,57 +1,5 @@
 .html, body{
     margin: 0;
     padding: 0;
-}
-.equipage{
-    height: 100vh;
-    width: 100vw;
-    display:flex;
-    flex-wrap: nowrap;
     
-    
-}
-
-.personnage{
-    height: 40%;
-    flex: 1;
-    background-size: contain;
-    
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 0.7s;
-}
-.personnage:hover{
-    flex: 3;
-}
-.luffy{
-    background-image: url("../img/luffy.webp");
-}
-.nami{
-    background-image: url("../img/nami.jpeg");
-}
-.usopp{
-    background-image: url("../img/usopp.jpeg");
-}
-.zoro{
-    background-image: url("../img/zoro.jpeg");
-}
-.robin{
-    background-image: url("../img/robin.jpeg");
-}
-.sanji{
-    background-image: url("../img/sanji.jpeg");
-}
-.franky{
-    background-image: url("../img/franky.jpg");
-}
-.chopper{
-    background-image: url("../img/chopper.jpeg");
-}
-.brook{
-    background-image: url('../img/brook.jpg');
-}
-.description{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
