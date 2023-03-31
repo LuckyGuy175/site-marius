@@ -3,3 +3,63 @@
     padding: 0;
     
 }
+.imgluffy{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/luffy.jpg");
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 2s;
+}
+.imgluffytext{
+    opacity: 0%;
+
+
+}
+.imgluffytext:hover{
+    opacity: 100%;
+}
+.imgluffy:hover{
+    background-image: url("../img/blanc.png");
+}
+
+.imgzoro{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/zoro.jpg");
+}
+.imgsanji{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/sanji.jpg");
+}
+.imgnami{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/nami.jpg");
+}
+.imgusopp{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/usopp.jpg");
+}
+.imgbrook{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/brook.jpg");
+}
