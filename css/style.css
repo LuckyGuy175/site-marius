@@ -1,7 +1,5 @@
-.html, body{
-    margin: 0;
-    padding: 0;
-    
+body{
+    font-family: 'Alkatra', cursive;
 }
 .sunny{
     height: 30vh;
@@ -116,4 +114,11 @@
 .centrer{
     display: flex;
     justify-content: center;
+}
+
+.sticky{     
+    position: sticky;     
+    top: 0;     
+    width: 100%;     
+    z-index: 1; 
 }
