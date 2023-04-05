@@ -1,116 +1,26 @@
 body{
+    margin: 0;
+    padding: 0;
     font-family: 'Alkatra', cursive;
+    background-image: url("../img/back.jpg");
+    background-size: contain;
+}
+.carousel{
+    margin: 10%;
+    border: 7px solid;
+    border-color: #00FFFF;
+    
+
 }
 .sunny{
-    height: 30vh;
-    width: 30vw;
+    height: 99vh;
+    width: 99vw;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("../img/sunny.jpg");
 }
-.merry{
-    height: 30vh;
-    width: 30vw;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("../img/merry.jpg");
-}
-.imgluffy{
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("../img/luffy.jpg");
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    transition: flex 1,5s ease-in-out;
-}
-.imgluffytext{
-    opacity: 0%;
-    text-decoration: none;
-}
-.imgluffytext:hover{
-    opacity: 100%;
-    
-
-}
-.oui{
-    font-size: 300%;
-    text-transform: capitalize;
-    color:black;
-    text-decoration: none;
-}
-
-.imgluffy:hover{
-    background-image: url("../img/blanc.png");
-}
-
-.imgzoro{
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("../img/zoro.jpg");
-}
-.imgsanji{
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("../img/sanji.jpg");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    transition: flex 1,5s ease-in-out;
-}
-.imgsanji:hover{
-    background-image: url("../img/blanc.png");
-
-    text-decoration: none;
-}
-.imgnami{
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("../img/nami.jpg");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    transition: flex 1,5s ease-in-out;
-}
-.imgnami:hover{
-    background-image: url("../img/blanc.png");
-}
-.imgusopp{
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("../img/usopp.jpg");
-}
-.imgbrook{
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("../img/brook.jpg");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    transition: flex 1,5s ease-in-out;
-}
-.imgbrook:hover{
-    background-image: url("../img/blanc.png");
-}
 .centrer{
     display: flex;
     justify-content: center;
@@ -122,3 +32,16 @@ body{
     width: 100%;     
     z-index: 1; 
 }
+.card{
+    padding-top:1%;
+    padding-bottom: 1%;
+}
+.video{
+    margin: 10%;
+    text-align: center;
+}
+
+#wanteded{
+    scroll-margin-top: 100px;
+}
+

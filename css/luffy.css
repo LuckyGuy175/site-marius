@@ -1,0 +1,41 @@
+
+body{
+    font-family: 'Alkatra', cursive;
+    color: white;
+    background-image: url("../img/back.jpg");
+    background-size: cover;
+}
+.sticky{     
+    position: sticky;     
+    top: 0;     
+    width: 100%;     
+    z-index: 1; 
+}
+.description{
+    background-color: rgba(128, 128, 128, 0.438);
+}
+h1{
+    margin-top:3%;
+    text-align: center;
+}
+.imglu{
+    display: block;
+    height: 30%;
+    width: 30%;
+    
+}
+.luffy{
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    text-decoration: none;
+}
+.oui{
+    margin-top: 3%;
+}
+.taw{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
