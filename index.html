@@ -6,12 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Acceuil</title>
+  <link rel="shortcut icon" href="img/logo.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -24,39 +25,46 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
+          <li class="nav-item ms-3">
             <a class="nav-link active" aria-current="page" href="#wanteded">Poster</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#video">Equipage</a>
+          <li class="nav-item ms-3">
+            <a class="nav-link" href="#video">AMV</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item dropdown ms-1">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Wanted
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu ms-3">
               <li><a class="dropdown-item" href="luffy.html">Luffy</a></li>
-              <li><a class="dropdown-item" href="#">Zoro</a></li>
-              <li><a class="dropdown-item" href="#">Sanji</a></li>
-              <li><a class="dropdown-item" href="#">Nami</a></li>
-              <li><a class="dropdown-item" href="#">Usopp</a></li>
-              <li><a class="dropdown-item" href="#">Brook</a></li>
+              <li><a class="dropdown-item" href="zoro.html">Zoro</a></li>
+              <li><a class="dropdown-item" href="sanji.html">Sanji</a></li>
+              <li><a class="dropdown-item" href="nami.html">Nami</a></li>
+              <li><a class="dropdown-item" href="usopp.html">Usopp</a></li>
+              <li><a class="dropdown-item" href="brook.html">Brook</a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
         </ul>
+        <form class="d-flex me-4">
+          <a href="#caflousel"><img src="img/logo.png" alt="" height="80"></a>
+        </form>
       </div>
     </div>
   </nav>
 
- 
-  <div class="container-fluid sunny"></div>
 
-
-  <div id="carouselExampleAutoplaying" class="carousel slide rounded-5" data-bs-ride="carousel">
-    <div class="carousel-inner">
+  <div class="container-fluid sunny">
+    <h1>One Piece</h1>
+  </div>
+  <div id="caflousel">
+    <h2>Les fan art les plus appréciés
+    </h2>
+  </div>
+  <div id="carouselExampleAutoplaying" class="carousel slide rounded-5" data-bs-ride="carousel"><div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>    <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="img/fond.jpg" class="d-block w-100 rounded-4" alt="...">
       </div>
@@ -67,77 +75,115 @@
         <img src="img/crane.jpg" class="d-block w-100 rounded-4" alt="...">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  
-  <div class="container-fluid " id="wanteded">
+  <div id="wanteded">
+    <h2>
+      Les affiches de l'équipage
+    </h2>
+
+  </div>
+
+  <div class="container-fluid ">
     <div class="container">
       <div class="row justify-content-around py-3">
-        <div class="card col-3" >
+        <div class="card col-3">
           <a href="luffy.html"><img src="img/luffy.jpg" alt="" height="450"></a>
-          <p> Monkey D. Luffy, surnommé de manière récurrente Luffy au chapeau de paille, est un personnage de fiction et principal protagoniste de la franchise japonaise One Piece créée par Eiichirō Oda.</p>
-          <div class="d-grid gap-2 d-md-block">
+          <p> Monkey D. Luffy, surnommé de manière récurrente Luffy au chapeau de paille, est un personnage de fiction
+            et principal protagoniste de la franchise japonaise One Piece créée par Eiichirō Oda.</p>
+          <div class="d-grid gap-2 d-md-block mt-5">
             <a class="btn btn-primary centrer"
               href="https://www.amazon.fr/dp/B0BBWD1HPC/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B0BBWD1HPC&pd_rd_w=SI6DC&content-id=amzn1.sym.f19653fc-d974-4897-b076-1fbc2c891b94&pf_rd_p=f19653fc-d974-4897-b076-1fbc2c891b94&pf_rd_r=G2Q6CW2RRRA5YCMS9X37&pd_rd_wg=YSrp7&pd_rd_r=7c5ebb14-a8c7-4280-87e1-bf0abf17f230&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&smid=A2BMTS477F9XIS&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExUEZQV1MwOFVOUEtHJmVuY3J5cHRlZElkPUEwNjE0NjM1RUVFTVRZNFZTRUJQJmVuY3J5cHRlZEFkSWQ9QTA1OTgzNTczRDJCMFMzN0k5OFVUJndpZGdldE5hbWU9c3BfZGV0YWlsX3RoZW1hdGljJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
               role="button">5,20€</a>
           </div>
+          <div class="d-grid gap-2 d-md-block mt-2">
+            <a class="btn btn-primary centrer" href="luffy.html" role="button">Voir Plus</a>
+          </div>
         </div>
         <div class="card col-3">
-          <a href="luffy.html"><img src="img/zoro.jpg" alt="" height="450"></a>
-          <p> Roronoa Zoro, Zoko ou anciennement francisé en Roronoa Zorro, est un personnage de One Piece. Il s'agit d'un épéiste dont l'ambition est de devenir le meilleur épéiste du monde, en s'aventurant sur grand line à la recherche du One Piece en compagnie de son capitaine et de l'équipage.</p>
+          <a href="zoro.html"><img src="img/zoro.jpg" alt="" height="450"></a>
+          <p> Roronoa Zoro, Zoko ou anciennement francisé en Roronoa Zorro, est un personnage de One Piece. Il s'agit
+            d'un épéiste dont l'ambition est de devenir le meilleur épéiste du monde, en s'aventurant sur grand line à
+            la recherche du One Piece en compagnie de son capitaine et de l'équipage.</p>
           <div class="d-grid gap-2 d-md-block">
             <a class="btn btn-primary centrer"
               href="https://www.amazon.fr/dp/B079VK1DY6/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B079VK1DY6&pd_rd_w=aJILb&content-id=amzn1.sym.f19653fc-d974-4897-b076-1fbc2c891b94&pf_rd_p=f19653fc-d974-4897-b076-1fbc2c891b94&pf_rd_r=EGNEPCZEKHB7RDZEWK4K&pd_rd_wg=5sSBj&pd_rd_r=8ef3ef82-4397-4d38-886c-cc841cec8609&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM&smid=A2BMTS477F9XIS&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyMEpOUVJKVVRBVk03JmVuY3J5cHRlZElkPUEwNzY3MTUxMzc3TlM4MUEwQ1RONSZlbmNyeXB0ZWRBZElkPUEwODI4NTI2MUFCUkFQWVQ4MTNMQiZ3aWRnZXROYW1lPXNwX2RldGFpbF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
               role="button">5,20€</a>
           </div>
+          <div class="d-grid gap-2 d-md-block mt-2">
+            <a class="btn btn-primary centrer" href="zoro.html" role="button">Voir Plus</a>
+          </div>
         </div>
         <div class="card col-3">
-          <a href="luffy.html"><img src="img/sanji.jpg" alt="" height="450"></a>
+          <a href="sanji.html"><img src="img/sanji.jpg" alt="" height="450"></a>
 
-          <p> Sanji Vinsmoke, ou Sanji la Jambe Noire, est un personnage de fiction de la franchise médiatique One Piece créée par Eiichirō Oda. Membre de l'équipage de Monkey D. Luffy, il occupe la place de cuisinier en son sein.</p>
-          <div class="d-grid gap-2 d-md-block">
+          <p> Sanji Vinsmoke, ou Sanji la Jambe Noire, est un personnage de fiction de la franchise médiatique One Piece
+            créée par Eiichirō Oda. Membre de l'équipage de Monkey D. Luffy, il occupe la place de cuisinier en son
+            sein.</p>
+          <div class="d-grid gap-2 d-md-block mt-5">
             <a class="btn btn-primary centrer"
               href="https://www.amazon.fr/ABYstyle-GBEye-Poster-Wanted-52x38cm/dp/B0BHF441LL/ref=sr_1_2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2LKQVA8J3JC3M&keywords=one+piece+prime+sanji&qid=1680254366&sprefix=one+piece+prime+sanji%2Caps%2C67&sr=8-2"
               role="button">5,20€</a>
+          </div>
+          <div class="d-grid gap-2 d-md-block mt-2">
+            <a class="btn btn-primary centrer" href="sanji.html" role="button">Voir Plus</a>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row justify-content-around py-3">
           <div class="card col-3">
-            <a href="luffy.html"><img src="img/nami.jpg" alt="" height="400"></a>
+            <a href="nami.html"><img src="img/nami.jpg" alt="" height="400"></a>
 
-            <p> Nami est un personnage de fiction appartenant à la franchise médiatique japonaise One Piece créée par Eiichiro Oda. Ex-membre de l'équipage Pirates d'Arlong elle fait partie de l'équipage de Luffy dans lequel elle tient le rôle de navigatrice et de cartographe. Au début du récit le personnage de Nami a 18 ans.</p>
-            <div class="d-grid gap-2 d-md-block">
+            <p> Nami est un personnage de fiction appartenant à la franchise médiatique japonaise One Piece créée par
+              Eiichiro Oda. Ex-membre de l'équipage Pirates d'Arlong elle fait partie de l'équipage de Luffy dans lequel
+              elle tient le rôle de navigatrice et de cartographe. Au début du récit le personnage de Nami a 18 ans.</p>
+            <div class="d-grid gap-2 d-md-block mt-5">
               <a class="btn btn-primary centrer"
                 href="https://www.amazon.fr/GBEye-PIECE-Poster-Wanted-52x38cm/dp/B0BHDRGVJ5/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2W3AAFP90T5ZK&keywords=one+piece+prime+nami&qid=1680254396&sprefix=one+piece+prime+nami%2Caps%2C62&sr=8-1"
                 role="button">4,95€</a>
             </div>
+            <div class="d-grid gap-2 d-md-block mt-2">
+              <a class="btn btn-primary centrer" href="nami.html" role="button">Voir Plus</a>
+            </div>
           </div>
           <div class="card col-3">
-            <img src="img/usopp.jpg" alt="">
-            <p> Usopp, connu anciennement sous le nom Pipo dans la première version française du manga en France, également surnommé « Sniperking, le roi des snipers », est un personnage de fiction appartenant à la franchise médiatique japonaise One Piece créée par Eiichirō Oda. Membre de l'équipage de Monkey D.</p>
+            <a href="usopp.html"><img src="img/usopp.jpg" alt="" height="450"></a>
+            <p> Usopp, connu anciennement sous le nom Pipo dans la première version française du manga en France,
+              également surnommé « Sniperking, le roi des snipers », est un personnage de fiction appartenant à la
+              franchise médiatique japonaise One Piece créée par Eiichirō Oda. Membre de l'équipage de Monkey D.</p>
             <div class="d-grid gap-2 d-md-block">
               <a class="btn btn-primary centrer"
                 href="https://www.amazon.fr/ABYstyle-ONE-PIECE-Poster-Wanted/dp/B06Y5ZZMXJ/ref=sr_1_3?crid=3APR2CW68NO6B&keywords=one+piece+prime+usopp&qid=1680249861&sprefix=usopp+prime%2Caps%2C65&sr=8-3"
                 role="button">5,20€</a>
             </div>
+            <div class="d-grid gap-2 d-md-block mt-2">
+              <a class="btn btn-primary centrer" href="usopp.html" role="button">Voir Plus</a>
+            </div>
           </div>
           <div class="card col-3">
-            <a href="luffy.html"><img src="img/brook.jpg" alt="" height="400"></a>
+            <a href="brook.html"><img src="img/brook.jpg" alt="" height="400"></a>
 
-            <p> Brook est un personnage du manga One Piece. Il s’agit d'un homme qui, ayant mangé le Fruit de la Résurrection, a pris l’apparence d’un squelette. La présence de Laboon auprès de son ancien équipage présume que tout comme Nico Robin, Brook est originaire de West blue.</p>
-            <div class="d-grid gap-2 d-md-block">
+            <p> Il s'agit d'un homme qui, ayant mangé le Fruit de la
+              Résurrection, a pris l'apparence d'un squelette. La présence de Laboon auprès de son ancien équipage
+              présume que tout comme Nico Robin, Brook est originaire de West blue. Il navigue pour la première fois sur
+              Grand Line en tant que vice-capitaine de l'équipage du Rumbar.</p>
+            <div class="d-grid gap-2 d-md-block mt-5">
               <a class="btn btn-primary centrer"
                 href="https://www.amazon.fr/ABYstyle-PIECE-Poster-Wanted-52x38cm/dp/B0BFDX85SS/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=C0YPDF0R0YG5&keywords=one+piece+prime+brook&qid=1680254124&sprefix=one+piece+prime+brook%2Caps%2C65&sr=8-1"
                 role="button">5,20€</a>
+            </div>
+            <div class="d-grid gap-2 d-md-block mt-2">
+              <a class="btn btn-primary centrer" href="brook.html" role="button">Voir Plus</a>
             </div>
           </div>
         </div>
@@ -145,21 +191,37 @@
     </div>
   </div>
   <div class="video" id="video">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/ajJnc1B1v1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-    crossorigin="anonymous"></script>
-  </div>¨
-  <footer class="py-3 bg-secondary">
+    <h2>
+      Quelques AMV de One Piece
+    </h2>
+    <div class="row  youtube">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/xmbxe0Jtxmc" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/D9MPvxDMiQA" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/faN2kGSXuM0" title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </div>
+  </div>
+  <footer class="py-3 bg-info">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      <li class="nav-item"><a href="#caflousel" class="nav-link px-2 text-body-secondary">Carousel</a></li>
+      <li class="nav-item"><a href="#wanteded" class="nav-link px-2 text-body-secondary">Affiches</a></li>
+      <li class="nav-item"><a href="#video" class="nav-link px-2 text-body-secondary">AMV</a></li>
     </ul>
     <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
